@@ -4,7 +4,7 @@ public class Box {
 	
 	private int _width,_length,_height;
 	static final int variabledefault = 10;
-    int arr[] = {_width,_length,_height};
+   
 	public Box() {
 		_width = variabledefault;
 		_length = variabledefault;
@@ -61,13 +61,13 @@ public class Box {
 	}
 
 	public int getLength() {
-		return(_length);
+		return _length;
 	}
 	public int getHeight() {
-		return(_height);
+		return _height;
 	}
 	public int getWidth() {
-		return(_width);
+		return _width;
 	}
 
 	public void resize(int factor) {
@@ -79,7 +79,6 @@ public class Box {
 	}
 	 public void resizeToLength() {
 			_width = _length;
-			
 			_height =_length;
 	 }
 	 public void resizeToHeight() {

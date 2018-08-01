@@ -12,7 +12,7 @@ static Scanner input = new Scanner(System.in);
 		System.out.print("Enter days: ");
 				int Day = input.nextInt();
 		System.out.print("Enter hours: ");
-				int hour = input.nextInt();
+				int hour = input.nextInt(); //sync test
 		System.out.print("Enter minutes: ");
 				int Min = input.nextInt();
 		result = Day*dayToSec + hour*hourToSec + Min*minutesToSec;	
